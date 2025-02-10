@@ -1,0 +1,121 @@
+*{
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background-image: url('https://i3.wp.com/www.creativefabrica.com/wp-content/uploads/2023/04/02/Nature-Background-Graphics-66003182-1.jpg?ssl=1');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width:1540px) {
+  .content{
+    border-radius: 25px;
+    box-shadow: 5px 10px #888888;
+    background-color: cyan;
+    margin: 35%;
+    padding: 20px;
+    text-align: center;
+  }
+  input{
+	padding: 6px;
+	width: 80%;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  h1{
+    color: darkgreen;
+  }
+  button{
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  #signup{
+    background-color: lightgreen;
+  }
+  #login{
+    background-color: darkcyan;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:1400px) {
+	.content{
+	 margin: 34%;
+	}
+}
+
+@media only screen and (max-width:1300px) {
+	.content{
+	 margin: 33%;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.content{
+	 margin: 32%;
+	}
+}
+
+@media only screen and (max-width:1100px) {
+	.content{
+	 margin: 31%;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.content{
+	 margin: 30%;
+	}
+}
+
+@media only screen and (max-width:900px) {
+	.content{
+	 margin: 27%;
+	}
+}
+
+@media only screen and (max-width:800px) {
+	.content{
+	 margin: 24%;
+	}
+}
+
+@media only screen and (max-width:700px) {
+	.content{
+	 margin: 21%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+ 	.content{
+	 margin: 18%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.content{
+	 margin: 14%;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.content{
+	 margin: 5%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.content{
+	 margin: 2%;
+	}
+}
